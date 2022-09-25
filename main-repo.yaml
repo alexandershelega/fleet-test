@@ -11,6 +11,7 @@ spec:
   - apps
   clientSecretName: githib-auth
   helmSecretName: helm-auth
+  imageScanInterval: 1m 
   imageScanCommit:
     authorName: foo
     authorEmail: foo@bar.com
