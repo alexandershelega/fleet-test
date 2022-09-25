@@ -5,6 +5,7 @@ metadata:
   namespace: fleet-local
 spec:
   repo: https://github.com/alexandershelega/fleet-test
+  branch: main
   paths:
   - repositories/*
   - apps/*
