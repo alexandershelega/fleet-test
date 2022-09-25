@@ -11,3 +11,7 @@ spec:
   - apps
   clientSecretName: githib-auth
   helmSecretName: helm-auth
+  imageScanCommit:
+    authorName: foo
+    authorEmail: foo@bar.com
+    messageTemplate: "update image"
