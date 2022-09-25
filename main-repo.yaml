@@ -10,3 +10,4 @@ spec:
   - repositories
   - apps
   clientSecretName: githib-auth
+  helmSecretName: helm-auth
