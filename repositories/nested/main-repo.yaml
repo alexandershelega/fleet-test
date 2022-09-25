@@ -9,3 +9,4 @@ spec:
   paths:
   - manifests
   clientSecretName: githib-auth
+  helmSecretName: helm-auth
