@@ -25,3 +25,23 @@ helm:
   # Custom values that will be passed as values.yaml to the installation
   valuesFiles:
     - values.yaml
+
+
+imageScans:
+# specify the policy to retrieve images, can be semver or alphabetical order 
+- policy: 
+    # if range is specified, it will take the latest image according to semver order in the range
+    # for more details on how to use semver, see https://github.com/Masterminds/semver
+    semver: 
+      range: "1.26.x" 
+
+  # specify images to scan
+  image: "harbor.intent.ai/base/nginx" 
+
+  # Specify the tag name, it has to be unique in the same bundle
+  tagName: nginx-scan
+
+  # specify secret to pull image if in private registry
+
+  # Specify the scan interval
+  interval: 1m 
