@@ -13,7 +13,7 @@ helm:
   repo: "https://gitlab.com/api/v4/projects/33385052/packages/helm/main"
 
   # Used if repo is set to look up the version of the chart
-  version: "0.0.2"
+  version: "0.0.x"
 
   # Force recreate resource that can not be updated
   force: false
