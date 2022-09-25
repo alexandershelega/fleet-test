@@ -7,6 +7,6 @@ spec:
   repo: https://github.com/alexandershelega/fleet-test
   branch: main
   paths:
-  - repositories/*
-  - apps/*
+  - repositories
+  - apps
   clientSecretName: githib-auth
