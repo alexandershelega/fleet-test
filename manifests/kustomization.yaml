@@ -6,4 +6,4 @@ resources:
   - ns.yaml
   - ns-cluster.yaml
   - token.yaml
-  - cluster.yaml
+#  - cluster.yaml
