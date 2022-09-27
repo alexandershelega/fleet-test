@@ -10,8 +10,8 @@ spec:
   - multicluster
   clientSecretName: githib-auth
   helmSecretName: helm-auth
-#  targets:
-#  - name: dev-group
-#    clusterSelector:
-#      matchLabels:
-#        env: dev
+  targets:
+  - name: dev-group
+    clusterSelector:
+      matchLabels:
+        env: dev
