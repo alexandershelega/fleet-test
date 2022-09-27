@@ -11,7 +11,7 @@ spec:
   clientSecretName: githib-auth
   helmSecretName: helm-auth
   targets:
-  - name: dev
+  - name: dev-group
     clusterSelector:
       matchLabels:
         env: dev
