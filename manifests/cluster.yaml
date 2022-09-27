@@ -1,7 +1,10 @@
-kind: Cluster
 apiVersion: fleet.cattle.io/v1alpha1
+kind: Cluster
 metadata:
   name: my-cluster
   namespace: clusters
+  labels:
+    demo: "true"
+    env: dev
 spec:
-  clientID: "devdevdev"
+  kubeConfigSecret: my-cluster-kubeconfig
