@@ -8,11 +8,10 @@ spec:
   branch: main
   paths:
   - repositories
-  #- apps
   clientSecretName: githib-auth
   helmSecretName: helm-auth
-  imageScanInterval: 1m 
+  imageScanInterval: 1m
   imageScanCommit:
     authorName: foo
     authorEmail: foo@bar.com
-    messageTemplate: "update image"
+    messageTemplate: "update image" 
