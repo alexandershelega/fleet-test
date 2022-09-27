@@ -2,7 +2,7 @@ kind: GitRepo
 apiVersion: fleet.cattle.io/v1alpha1
 metadata:
   name: multicluster
-  namespace: cattle-fleet-system
+  namespace: clusters
 spec:
   repo: https://github.com/alexandershelega/fleet-test
   branch: main
