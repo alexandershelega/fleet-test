@@ -15,5 +15,4 @@ spec:
   - name: dev
     clusterSelector:
       matchLabels:
-        env: dev
         example: "true"
