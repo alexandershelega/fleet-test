@@ -1,0 +1,10 @@
+
+kind: ClusterGroup
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: dev-group
+  namespace: clusters
+spec:
+  selector:
+    matchLabels:
+      env: dev

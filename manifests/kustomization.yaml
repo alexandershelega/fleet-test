@@ -7,3 +7,4 @@ resources:
   - ns-cluster.yaml
   - token.yaml
   - cluster.yaml
+  - group.yaml
